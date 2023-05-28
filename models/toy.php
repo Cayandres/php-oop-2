@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/product.php';
 
-class toy extends Product{
+class Toy extends Product{
   public $features;
   public $size;
 
@@ -21,4 +21,3 @@ class toy extends Product{
     $this->size = $_size;
   }
 }
-
